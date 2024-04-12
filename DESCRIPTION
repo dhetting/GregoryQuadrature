@@ -1,0 +1,17 @@
+Package: Gregory
+Title: Gregory Weights For Function Integration
+Version: 0.0.0.9000
+Authors@R: c(
+    person("Dylan", "Hettinger", email = "dylan.hettinger@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0009-0000-5769-2333")),
+    person("Bengt", "Fornberg", email = "bengt.fornberg@colorado.edu", role = "aut"))
+Description: Computes Gregory weights for a given number nodes and function order. See https://www.colorado.edu/amath/sites/default/files/attached-files/gregory.pdf for details.
+License: GPL-3 + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
+Imports:
+    pracma
+Suggests:
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
