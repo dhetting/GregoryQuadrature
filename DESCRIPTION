@@ -1,4 +1,4 @@
-Package: Gregory
+Package: GregoryQuadrature
 Title: Gregory Weights For Function Integration
 Version: 0.0.0.9000
 Authors@R: c(
@@ -13,5 +13,8 @@ RoxygenNote: 7.3.1
 Imports:
     pracma
 Suggests:
+    knitr,
+    rmarkdown,
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
+VignetteBuilder: knitr

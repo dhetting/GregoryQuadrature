@@ -1,2 +1,2 @@
-# Gregory
-R package for performing quadrature using Gregory's Method
+# GregoryQuadrature
+R package for performing integration using Gregory's Method
