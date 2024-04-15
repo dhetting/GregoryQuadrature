@@ -2,7 +2,7 @@ Package: GregoryQuadrature
 Title: Gregory Weights For Function Integration
 Version: 0.0.0.9000
 Authors@R: c(
-    person("Dylan", "Hettinger", email = "dylan.hettinger@mines.edu", role = c("aut", "cre"),
+    person("Dylan", "Hettinger", email = "dylan.hettinger@mines.edu", role = c("aut", "cre", "cph"),
            comment = c(ORCID = "0009-0000-5769-2333")),
     person("Bengt", "Fornberg", email = "bengt.fornberg@colorado.edu", role = c("aut"),
            comment = c(ORCID = "0000-0003-0014-6985")))
