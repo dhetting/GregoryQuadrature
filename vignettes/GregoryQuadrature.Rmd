@@ -59,6 +59,3 @@ print(error)
 Ralston, Anthony. A First Course in Numerical Analysis. New York: McGraw-Hill, 1965.
 
 Fornberg, B., Reeger, J.A. An improved Gregory-like method for 1-D quadrature. Numer. Math. 141, 1–19 (2019). https://doi-org.mines.idm.oclc.org/10.1007/s00211-018-0992-0
-
-
-

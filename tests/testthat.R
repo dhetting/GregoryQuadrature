@@ -7,6 +7,6 @@
 # * https://testthat.r-lib.org/articles/special-files.html
 
 library(testthat)
-library(Gregory)
+library(GregoryQuadrature)
 
-test_check("Gregory")
+test_check("GregoryQuadrature")

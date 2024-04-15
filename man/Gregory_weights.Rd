@@ -32,7 +32,7 @@ h = 2/(n_nodes-1)
 x = pracma::linspace(-1, 1, n_nodes)
 f = exp(x)
 
-w = Gregory::Gregory_weights(n_nodes, h, order)
+w = GregoryQuadrature::Gregory_weights(n_nodes, h, order)
 int = f \%*\% w
 # Exact value for integral
 exact = exp(1) - exp(-1)
