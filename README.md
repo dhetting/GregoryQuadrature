@@ -1,5 +1,5 @@
 # GregoryQuadrature
-R package for performing numerical integration using Gregory's Method.
+R package for performing numerical integration using Gregory's Method. To install, run `install.packages("GregoryQuadrature")` from your R console.
 
 Gregory's Formula expresses an integral as a sum of equally spaced integrand values: $\int_{x_0}^{x_0 + nh} f(y)dy = h(\frac{1}{2}f_0 + f_1 + \cdots + f_{n-1} + \frac{1}{2}f_n) + \frac{h}{12}\left(\Delta f_0 - \Delta f_{n-1}\right) - \frac{h}{24}\left(\Delta^2f_0 + \Delta^2f_{n-2}\right) + \cdots$ where $f_j$ is $f(x_o + jh)$,  $\Delta^i$ are function differences, and $h$ is the step size. See Ralston 1965 for derivation details.
 
