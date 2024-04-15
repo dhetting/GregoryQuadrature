@@ -6,7 +6,7 @@ Authors@R: c(
            comment = c(ORCID = "0009-0000-5769-2333")),
     person("Bengt", "Fornberg", email = "bengt.fornberg@colorado.edu", role = c("aut"),
            comment = c(ORCID = "0000-0003-0014-6985")))
-Description: Computes Gregory weights for a given number nodes and function order. See https://www.colorado.edu/amath/sites/default/files/attached-files/gregory.pdf for details.
+Description: Computes Gregory weights for a given number nodes and function order. Ralston, Anthony. 1965. A First Course in Numerical Analysis.
 License: GPL-3 + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
