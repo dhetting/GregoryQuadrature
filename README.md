@@ -39,6 +39,31 @@ print(error)
 ```
 
 
+## Python
+
+The standalone [`gregory_quadrature.py`](gregory_quadrature.py) file ports
+`R/gregory.R` and requires NumPy. Copy it into your Python project, then use:
+
+```python
+import numpy as np
+from gregory_quadrature import Gregory_weights
+
+x = np.linspace(-1.0, 1.0, 11)
+w = Gregory_weights(len(x), x[1] - x[0], 8)
+integral = np.exp(x) @ w
+print(integral - (np.exp(1.0) - np.exp(-1.0)))
+```
+
+Endpoint corrections overlap when the node count is small; the port preserves
+the R implementation's accumulation at both ends. Higher orders can amplify
+roundoff and can produce negative weights. Numerical convergence must be checked
+for the integrand being evaluated. General integrals are approximated, rather
+than evaluated symbolically.
+
+Run the Python tests with `python -m pytest tests/test_gregory_python.py`.
+The Python module and its tests are distributed in this repository, separately
+from the CRAN package.
+
 Ralston, Anthony. A First Course in Numerical Analysis. New York: McGraw-Hill, 1965.
 
 Fornberg, B., Reeger, J.A. An improved Gregory-like method for 1-D quadrature. Numer. Math. 141, 1–19 (2019). [https://doi.org/10.1007/s00211-018-0992-0](https://doi.org/10.1007/s00211-018-0992-0)

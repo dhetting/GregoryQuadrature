@@ -3,3 +3,8 @@
 ^LICENSE\.md$
 ^cran-comments\.md$
 ^CRAN-SUBMISSION$
+^gregory_quadrature\.py$
+^tests/test_gregory_python\.py$
+^__pycache__$
+^tests/__pycache__$
+^\.pytest_cache$
